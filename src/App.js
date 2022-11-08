@@ -1,4 +1,5 @@
 import React from "react";
+import Contador from "./Contador";
 import TodoList from "./TodoList";
 
 /*const Item1 ={
@@ -28,6 +29,7 @@ class App extends React.Component{
 	render(){
 		return(
 			<div>
+        <Contador/>
 				<h3>Tarefas</h3> 
 				<TodoList itens={this.state.itens}/>
 				< br/>
